@@ -55,3 +55,6 @@ if uploaded_file is not None:
             st.write(f"{cls}: {prob*100:.2f}%")
 else:
     st.info("Please upload an MRI image to get a prediction.")
+
+import gdown
+import os
