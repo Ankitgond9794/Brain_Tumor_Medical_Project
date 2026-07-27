@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 # ---------------------------------------------------
 # Config
 # ---------------------------------------------------
-MODEL_PATH = "brain_tumor_model.keras"
+MODEL_PATH = "model.keras"
 CLASSES = ["Glioma", "Meningioma", "No Tumor", "Pituitary"]
 IMG_SIZE = (224, 224)
 
